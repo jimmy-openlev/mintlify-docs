@@ -1,66 +1,43 @@
 ---
 title: 'Space Hosts Playbook'
-description: 'The navigation field in mint.json defines the pages that go in the navigation menu'
+description: 'A comprehensive guide for Space Hosts to cultivate a thriving community and optimize the management of their spaces within the D1 platform.'
 icon: 'user-hair-buns'
 ---
 
-The navigation menu is the list of links on every website.
+## Start Your Space
+- **Create a Space**: Establish your space within D1 by defining its purpose and unique offerings to the community.
+- **Set Objectives**: Identify clear goals for your space that align with member interests and platform objectives.
 
-You will likely update `mint.json` every time you add a new page. Pages do not show up automatically.
+## Manage Space Dynamics
+- **Host Duties**: Engage regularly with your space members through events, discussions, and content sharing.
+- **Member Interaction**: Foster a vibrant community by encouraging interactions, such as discussions, polls, and feedback sessions.
 
-## Navigation syntax
+## Maximize Space Growth
+- **Member Onboarding**: Create a welcoming environment for new members with guides, introductions, and starter activities.
+- **Promote Engagement**: Implement strategies to maintain high levels of member activity and retention.
 
-Our navigation syntax is recursive which means you can make nested navigation groups. You don't need to include `.mdx` in page names.
+## SpaceShare Management
+- **Share Distribution**: Oversee the distribution and management of Space Shares to ensure a fair and transparent system.
+- **Performance Tracking**: Monitor the performance and value of shares, providing regular updates to share owners.
 
-<CodeGroup>
+## Organize Space Rallies
+- **Rally Planning**: Organize and schedule rallies within your space to boost engagement and reward active members.
+- **Jackpot Management**: Manage the rally jackpot, ensuring it's attractive and communicated clearly to participants.
 
-```json Regular Navigation
-"navigation": [
-    {
-        "group": "Getting Started",
-        "pages": ["quickstart"]
-    }
-]
-```
+## Financial Oversight
+- **Transaction Supervision**: Supervise the financial transactions within your space, including share sales and reward distributions.
+- **Economic Strategy**: Develop and execute strategies for the financial sustainability and growth of your space.
 
-```json Nested Navigation
-"navigation": [
-    {
-        "group": "Getting Started",
-        "pages": [
-            "quickstart",
-            {
-                "group": "Nested Reference Pages",
-                "pages": ["nested-reference-page"]
-            }
-        ]
-    }
-]
-```
+## sOLE Synergy
+- **Staking Guidance**: Educate your members on the benefits of staking and using sOLE within your space.
+- **Reward Optimization**: Utilize sOLE to maximize the rewards for your space and its members.
 
-</CodeGroup>
+## Reporting and Analytics
+- **Performance Metrics**: Track and analyze various metrics to gauge the success and growth of your space.
+- **Regular Reporting**: Provide members with transparent reports on space performance, share value, and future projections.
 
-## Folders
+## Community Leadership
+- **Lead by Example**: Be an active and exemplary member of the D1 community, setting standards for engagement and ethics.
+- **Vision Sharing**: Share your vision for the space with members to align efforts and foster a sense of shared purpose.
 
-Simply put your MDX files in folders and update the paths in `mint.json`.
-
-For example, to have a page at `https://yoursite.com/your-folder/your-page` you would make a folder called `your-folder` containing an MDX file called `your-page.mdx`.
-
-<Warning>
-
-You cannot use `api` for the name of a folder unless you nest it inside another folder. Mintlify uses Next.js which reserves the top-level `api` folder for internal server calls. A folder name such as `api-reference` would be accepted.
-
-</Warning>
-
-```json Navigation With Folder
-"navigation": [
-    {
-        "group": "Group Name",
-        "pages": ["your-folder/your-page"]
-    }
-]
-```
-
-## Hidden Pages
-
-MDX files not included in `mint.json` will not show up in the sidebar but are accessible through the search bar and by linking directly to them.
+By following this playbook, Space Hosts can effectively manage their space, driving growth and member satisfaction, while ensuring financial and community success on the D1 platform.
