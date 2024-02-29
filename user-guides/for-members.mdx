@@ -1,66 +1,37 @@
 ---
-title: 'For Space Members'
-description: 'The navigation field in mint.json defines the pages that go in the navigation menu'
+title: 'Space Members'
+description: 'Playbook for space members.'
 icon: 'users-rays'
 ---
 
-The navigation menu is the list of links on every website.
+# Space Member Playbook
 
-You will likely update `mint.json` every time you add a new page. Pages do not show up automatically.
+## Join by Linkup
+- **Invite Requirement:** Secure an invite code from a current member to join D1, an invite-only platform.
+- **Registration:** Link your X account and digital wallet during sign-up.
+- **Fee and Rewards:** Pay a 0.005 ETH joining fee to receive D1 gems and Blast Gold. Gems convert to OLE bi-weekly, and Blast Gold to $Blast in May.
+- **Bonus Gems:** Earn 50% extra gems by sharing your joining excitement on X.
 
-## Navigation syntax
+## Invite with Instant Reward
+- **Rewards for Inviting:** Receive instant rewards for every successful referral who signs up and pays the joining fee.
+- **Invite Process:** Use your unique invite link from the D1 dashboard for invitations.
 
-Our navigation syntax is recursive which means you can make nested navigation groups. You don't need to include `.mdx` in page names.
+## Being Active and Collect Rewards in Spaces
+- **Daily Rallies:** Join rallies three times a day for a chance to win the jackpot.
+- **Bootstrap Sessions:** Earn more gems by participating in space bootstrap sessions; rewards increase with more active members.
+- **Social Engagement:** Earn gems by giving and receiving likes within the community.
 
-<CodeGroup>
+## Buying Share
+- **Invest in Spaces:** Purchase shares in spaces to gain financial stakes and potentially earn dividends or have voting rights.
 
-```json Regular Navigation
-"navigation": [
-    {
-        "group": "Getting Started",
-        "pages": ["quickstart"]
-    }
-]
-```
+## Speculate and Support Your Space in Sprint Section
+- **Engage in Sprints:** Support your favorite spaces and speculate on their success to earn rewards.
 
-```json Nested Navigation
-"navigation": [
-    {
-        "group": "Getting Started",
-        "pages": [
-            "quickstart",
-            {
-                "group": "Nested Reference Pages",
-                "pages": ["nested-reference-page"]
-            }
-        ]
-    }
-]
-```
+## Boost Your Earnings with sOLE
+- **Staking OLE:** Convert OLE to sOLE by staking, enhancing your earnings through additional rewards and benefits.
 
-</CodeGroup>
+## How Do Your Gems Convert to OLE
+- **Conversion Mechanism:** Automatically convert earned gems to OLE bi-weekly, with rates communicated in advance.
 
-## Folders
-
-Simply put your MDX files in folders and update the paths in `mint.json`.
-
-For example, to have a page at `https://yoursite.com/your-folder/your-page` you would make a folder called `your-folder` containing an MDX file called `your-page.mdx`.
-
-<Warning>
-
-You cannot use `api` for the name of a folder unless you nest it inside another folder. Mintlify uses Next.js which reserves the top-level `api` folder for internal server calls. A folder name such as `api-reference` would be accepted.
-
-</Warning>
-
-```json Navigation With Folder
-"navigation": [
-    {
-        "group": "Group Name",
-        "pages": ["your-folder/your-page"]
-    }
-]
-```
-
-## Hidden Pages
-
-MDX files not included in `mint.json` will not show up in the sidebar but are accessible through the search bar and by linking directly to them.
+## Compound Your Reward
+- **Reinvest Rewards:** Members are encouraged to reinvest their earnings to maximize their potential returns through compounding strategies.
