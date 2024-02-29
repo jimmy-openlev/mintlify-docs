@@ -26,15 +26,9 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "#D1 Start",
+    "name": "Start D1 App",
     "url": "https://app.districtone.io"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
@@ -54,26 +48,11 @@
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
     "website": "https://districtone.io",
     "twitter": "https://twitter.com/DistrictOneIO",
-    "github": "https://github.com/OpenLeverageDev/districtone-contracts",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/OpenLeverageDev/districtone-contracts"
   }
 }
