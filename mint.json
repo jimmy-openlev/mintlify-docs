@@ -39,14 +39,20 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Money Games",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "money-games/linkup",
+        "money-games/rally",
+        "money-games/space-share",
+        "money-games/space-sprint",
+        "money-games/battle"
+      ]
+    },
+    {
+      "group": "$OLE",
+      "pages": [
+        "token/info",
+        "token/bridge"
       ]
     }
   ],
