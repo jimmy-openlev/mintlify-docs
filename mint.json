@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Doc",
   "logo": {
-    "dark": "/logo/dark.svg",
+    "dark": "/logo/dark.png",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -15,15 +15,19 @@
       "to": "#07C983"
     }
   },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@districtone.io"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "#D1 Start",
+    "url": "https://app.districtone.io"
   },
   "tabs": [
     {
@@ -33,19 +37,19 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Home",
+      "icon": "house",
+      "url": "https://districtone.io"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "App",
+      "icon": "gamepad",
+      "url": "https://app.districtone.io"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "X-Twitter",
+      "icon": "x-twitter",
+      "url": "https://twitter.com/DistrictOneIO"
     }
   ],
   "navigation": [
