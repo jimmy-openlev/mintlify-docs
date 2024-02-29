@@ -29,16 +29,11 @@
     "name": "Start D1 App",
     "url": "https://app.districtone.io"
   },
-  "anchors": [{
-    "name": "Introduction",
-    "icon": "house",
-    "url": "introduction"
-  }
-  ],
   "navigation": [
     {
       "group": "User Guides",
       "pages": [
+        "introduction",
         "user-guides/for-members",
         "user-guides/for-hosts"
       ]
