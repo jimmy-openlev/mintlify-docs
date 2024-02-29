@@ -1,66 +1,42 @@
 ---
 title: 'Space Share'
-description: 'The navigation field in mint.json defines the pages that go in the navigation menu'
+description: 'SpaceShare is a core feature of the D1 platform, allowing members to invest in individual spaces, support their growth, and earn from their success. It’s a system that ties the rewards of a space to its activity and performance, creating a symbiotic relationship between space hosts and participants. Here's your guide to understanding and maximizing SpaceShare.'
 icon: 'arrow-trend-up'
 ---
+<img style={{ borderRadius: '0.5rem' }} src="/images/spaceshare.jpeg" alt="SpaceShare"/>
 
-The navigation menu is the list of links on every website.
+## Introduction to SpaceShare
+With SpaceShare, members can purchase shares in their favorite spaces. This investment reflects confidence in a space's potential and directly contributes to its vitality.
 
-You will likely update `mint.json` every time you add a new page. Pages do not show up automatically.
+### Investing in a Space:
+- **Purchase Shares**: Buy shares within a space to gain a stake in its future.
+- **Price Mechanism**: Shares are priced on a linear bonding curve, balancing supply and demand.
 
-## Navigation syntax
+### Benefits for Shareholders:
+- **Transaction Fees**: Shareholders receive a portion of the space's transaction fees, creating a passive income stream.
+- **Activity Rewards**: The more active a space is, the more rewards it generates for shareholders, including $gems and Blast Gold.
 
-Our navigation syntax is recursive which means you can make nested navigation groups. You don't need to include `.mdx` in page names.
+## Earning from SpaceShare
+Owning shares in a space not only provides financial benefits but also gives you a voice in its growth and direction.
 
-<CodeGroup>
+### Revenue Streams:
+- **Share Transaction Fees**: A percentage of every share transaction fee is distributed to shareholders.
+- **On-Chain Distribution**: Shareholders earn from on-chain activities associated with the space.
 
-```json Regular Navigation
-"navigation": [
-    {
-        "group": "Getting Started",
-        "pages": ["quickstart"]
-    }
-]
-```
+### Reward Distribution:
+- **Lucky Drops**: Shareholders can benefit from real-time lucky drops when transactions occur.
+- **Active Participation**: Increase your rewards by contributing to the space's activity, thereby enhancing its overall value.
 
-```json Nested Navigation
-"navigation": [
-    {
-        "group": "Getting Started",
-        "pages": [
-            "quickstart",
-            {
-                "group": "Nested Reference Pages",
-                "pages": ["nested-reference-page"]
-            }
-        ]
-    }
-]
-```
+## SpaceShare Management
+As a space host or an active participant, managing your SpaceShare effectively is crucial to maximizing your investment.
 
-</CodeGroup>
+### For Space Hosts:
+- **Promote Investment**: Encourage your community to invest in shares and support the space’s growth.
+- **Drive Engagement**: The more your space is engaged, the more valuable the shares become.
 
-## Folders
+### For Members:
+- **Strategic Investment**: Choose spaces you believe in and are committed to supporting through active participation.
+- **Track Performance**: Keep an eye on your shares' performance and the space's overall activity to make informed decisions.
 
-Simply put your MDX files in folders and update the paths in `mint.json`.
-
-For example, to have a page at `https://yoursite.com/your-folder/your-page` you would make a folder called `your-folder` containing an MDX file called `your-page.mdx`.
-
-<Warning>
-
-You cannot use `api` for the name of a folder unless you nest it inside another folder. Mintlify uses Next.js which reserves the top-level `api` folder for internal server calls. A folder name such as `api-reference` would be accepted.
-
-</Warning>
-
-```json Navigation With Folder
-"navigation": [
-    {
-        "group": "Group Name",
-        "pages": ["your-folder/your-page"]
-    }
-]
-```
-
-## Hidden Pages
-
-MDX files not included in `mint.json` will not show up in the sidebar but are accessible through the search bar and by linking directly to them.
+## Conclusion
+SpaceShare provides a tangible way for members to invest in the success of their favorite spaces on the D1 platform. By purchasing shares, members can earn from the space’s success, contribute to its growth, and participate in a community they care about. Whether you’re a space enthusiast or an investor looking for opportunities within the D1 ecosystem, SpaceShare offers a unique avenue to engage and profit.
