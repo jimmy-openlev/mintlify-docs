@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16*16</title>
+    <g id="Branding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(-170, -452)">
+            <g id="16*16" transform="translate(170, 452)">
+                <circle id="333" fill="#D4FF00" cx="8" cy="8" r="8"></circle>
+                <path d="M7.98321791,4.657277 L9.52510686,5.81996326 L9.52510686,9.99140945 L7.9629299,11.342723 L2.77934272,11.342723 L2.77934272,4.657277 L7.98321791,4.657277 Z M7.67956762,6.3286385 L4.62488197,6.3286385 L4.62488197,9.73564464 L7.67956762,9.73564464 L7.67956762,6.3286385 Z M13.1455399,4.657277 L13.1455399,11.342723 L11.4979244,11.342723 L11.4977037,6.824277 L10.2987037,7.3234314 L10.2987037,5.51160202 L11.6627037,4.658277 L13.1455399,4.657277 Z" id="Combined-Shape-Copy-3" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

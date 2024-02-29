@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Doc",
+  "name": "DistrictOne Docs",
   "logo": {
-    "dark": "/logo/dark.png",
+    "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -33,23 +33,6 @@
     {
       "name": "API Reference",
       "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Home",
-      "icon": "house",
-      "url": "https://districtone.io"
-    },
-    {
-      "name": "App",
-      "icon": "gamepad",
-      "url": "https://app.districtone.io"
-    },
-    {
-      "name": "X-Twitter",
-      "icon": "x-twitter",
-      "url": "https://twitter.com/DistrictOneIO"
     }
   ],
   "navigation": [
@@ -88,8 +71,9 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
+    "website": "https://districtone.io",
+    "twitter": "https://twitter.com/DistrictOneIO",
+    "github": "https://github.com/OpenLeverageDev/districtone-contracts",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }
