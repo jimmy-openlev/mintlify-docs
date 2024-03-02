@@ -49,10 +49,11 @@
       ]
     },
     {
-      "group": "$OLE",
+      "group": "Game Currency",
       "pages": [
-        "token/info",
-        "token/bridge"
+        "currencies/ole",
+        "currencies/gems",
+        "currencies/bridge"
       ]
     }
   ],
