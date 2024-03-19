@@ -62,6 +62,12 @@
       "pages": [
         "updates/2024-03-13"
       ]
+    },
+    {
+      "group": "Tech Stuff",
+      "pages": [
+        "tech/addresses"
+      ]
     }
   ],
   "footerSocials": {
