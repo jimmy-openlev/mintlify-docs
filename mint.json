@@ -64,9 +64,10 @@
       ]
     },
     {
-      "group": "Tech Stuff",
+      "group": "Lists",
       "pages": [
-        "tech/addresses"
+        "list/addresses",
+        "list/early-supporters"
       ]
     }
   ],
