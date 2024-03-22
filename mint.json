@@ -58,15 +58,15 @@
       ]
     },
     {
-      "group": "Tech Stuff",
+      "group": "Product Updates",
       "pages": [
-        "tech/addresses"
+        "updates/2024-03-13"
       ]
     },
     {
-      "group": "Product Updates",
+      "group": "Tech Stuff",
       "pages": [
-        "updates/revamp-mar-2024"
+        "tech/addresses"
       ]
     }
   ],
