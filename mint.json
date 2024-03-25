@@ -50,11 +50,12 @@
       ]
     },
     {
-      "group": "Game Currency",
+      "group": "Game Currencies",
       "pages": [
         "currencies/ole",
         "currencies/gems",
-        "currencies/sole"
+        "currencies/sole",
+        "currencies/gold"
       ]
     },
     {
