@@ -39,15 +39,24 @@
       ]
     },
     {
-      "group": "Money Games",
+      "group": "Meme Labs",
+      "pages": [
+        "memelabs/social-launch",
+        "memelabs/airdrop",
+        "memelabs/share-for-meme",
+        "memelabs/x-to-earn",
+        "memelabs/competition"
+      ]
+    },
+    {
+      "group": "Space with Money Games",
       "pages": [
         "money-games/linkup",
         "money-games/rally",
         "money-games/space-share",
         "money-games/space-sprint",
         "money-games/sentinel",
-        "money-games/prime",
-        "money-games/battle"
+        "money-games/prime"
       ]
     },
     {
