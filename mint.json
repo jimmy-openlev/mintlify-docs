@@ -69,8 +69,9 @@
       ]
     },
     {
-      "group": "Product Updates",
+      "group": "Updates",
       "pages": [
+        "updates/changes-after-gold-06-2024",
         "updates/revamp-03-2024"
       ]
     },
