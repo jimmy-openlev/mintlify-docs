@@ -71,6 +71,7 @@
     {
       "group": "Updates",
       "pages": [
+        "updates/reflection-on-blast-phase1",
         "updates/changes-after-gold-06-2024",
         "updates/revamp-03-2024"
       ]
